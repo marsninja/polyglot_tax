@@ -1,8 +1,5 @@
-from sqlalchemy import Column, Integer, String, Boolean, create_engine
-from sqlalchemy.orm import declarative_base, sessionmaker
-
-DATABASE_URL = "sqlite+aiosqlite:///./todos.db"
-SYNC_DATABASE_URL = "sqlite:///./todos.db"
+from sqlalchemy import Column, Integer, String, Boolean
+from sqlalchemy.orm import declarative_base
 
 Base = declarative_base()
 
