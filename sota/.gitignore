@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.py[cod]
+*.db
+
+# Node
+node_modules/
+bun.lock
+
+# Vite
+frontend/dist/
